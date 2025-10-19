@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Common Tags</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 40px;
+        color: #333;
+      }
+
+      h2 {
+        background-color: #00bcd4;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        width: fit-content;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      dl {
+        margin-top: 20px;
+      }
+
+      dt {
+        font-weight: bold;
+        color: #01060b;
+      }
+
+      dd {
+        margin-left: 25px;
+        margin-bottom: 8px;
+        line-height: 1.5;
+        color: #444;
+      }
+
+      /* optional: add numbers automatically */
+      dl {
+        counter-reset: count;
+      }
+
+      dt::before {
+        counter-increment: count;
+        content: counter(count) ". ";
+        color: #ff5722;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>HTML Common Tags</h2>
+
+    <dl>
+      <dt>&lt;!DOCTYPE html&gt;</dt>
+      <dd>Declares the document as HTML5.</dd>
+
+      <dt>&lt;html&gt;</dt>
+      <dd>Is the root element.</dd>
+
+      <dt>&lt;head&gt;</dt>
+      <dd>Contains metadata — information about the page, not visible to users.</dd>
+
+      <dt>&lt;body&gt;</dt>
+      <dd>Contains the visible content of the page.</dd>
+
+      <dt>&lt;header&gt;</dt>
+      <dd>Includes h1 to h6 tags; h1 is the largest, h6 the smallest.</dd>
+
+      <dt>&lt;p&gt;</dt>
+      <dd>Defines a paragraph.</dd>
+
+      <dt>&lt;div&gt;</dt>
+      <dd>Groups block elements together into sections.</dd>
+
+      <dt>&lt;span&gt;</dt>
+      <dd>Groups inline elements together.</dd>
+
+      <dt>&lt;table&gt;</dt>
+      <dd>Displays data in a tabular format.</dd>
+
+      <dt>&lt;ul&gt; / &lt;ol&gt; / &lt;dl&gt;</dt>
+      <dd>ul = unordered list / ol = ordered list / dl = description list.</dd>
+      <dd>li = list item / dd = definition description.</dd>
+    </dl>
+  </body>
+</html>
+
+<ul>
+  <li>Frontend
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </li>
+  <li>Backend
+    <ul>
+      <li>Node.js</li>
+      <li>Python</li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>Wake up</li>
+  <li>Brush teeth</li>
+  <li>Have breakfast</li>
+  <li>Go to work</li> 
+</ol>

@@ -11,8 +11,96 @@
         <title>My Webpage</title>
     </head>
     <!-- body tag includes all visible contents -->
+
     <body>
-        <h1>Welcome to My Webpage</h1>
+    <!-- header tags h1 - h6 goes from largest to smallest -->
+        <h1>Main header (h1)</h1>
+        <h2>Sub header (h2)</h2>
+        <h3>Section title (h3)</h3>
+        <h4>Smaller title (h4)</h4>
+        <h5>Minor Heading (h5)</h5>
+        <h6>Smallest Heading (h6)</h6>
+
+    <!-- p tag = description -->
         <p>This is a simple webpage created as an example.</p>
-    </body>
+
+    <!-- div tag = block description -->
+         <!-- span tag = lined description -->
+
+
+        <div style="background-color: aqua; padding: 10px;">
+            <p><span style="color: blue; background-color: aliceblue;"> This is a paragraph inside a div block.
+            </span></p> 
+        </div>
+
+    
+
+    
+            <!-- table tag = displaying/organize data -->
+
+        <table background color="lightgrey" border="10">
+            <tr> (table row 1)
+                <th>name</th> (table collon 1) 
+                <th>age</th> (table collon 2)
+                <th>school</th> (table collon 3)
+            </tr>
+            <tr > (table row 2)
+                <td>Ibrahim</td> (table data)
+                <td>24</td>
+                <td>De la dernière chance</td>
+            </tr>
+            <tr> (table row 3)
+                <td>Manekoudi</td>
+                <td>25</td>
+                <td>Des étincelles</td>
+            </tr>
+        </table>
+    
+
+
+    
+            <!-- ul(unordered) /ol (ordered) tag = list description -->
+            <dl> <span style="background-color: aqua;">HTML Common Tags</span>
+                    
+                    <dt>"!DOCTYPE html" tag</dt> 
+                        <dd> declares the document as HTML5 </dd>
+                    <dt>"html" tag</dt>
+                        <dd> is the root element </dd>
+                    <dt>"Head" tag</dt>
+                        <dd>contains the mind / information about the page element: metadata — information about the page, not in the page. </dd>
+                    <dt>"Body" tag</dt>
+                        <dd> contains the visible page content </dd>
+                    <dt>"Header" tag</dt>
+                        <dd> h1 to h6 tags, h1 is the largest, h6 is the smallest </dd>    
+                    <dt>"P" tag</dt>
+                        <dd> used to define a paragraph </dd>    
+                    <dt>"Div" tag</dt>
+                        <dd> a container unit that encapsulates other page elements and divides the HTML document into sections </dd>
+                    <dt>"Span" tag</dt>     
+                        <dd> used to group inline-elements in a document </dd>     
+                    <dt>"Table" tag</dt>     
+                        <dd> used to display data in a tabular form </dd>   
+                    <dt>"ul/ol/dl" tag</dt>     
+                        <dd> ul = unordered list / ol = ordered list / dl = description list </dd>  
+                        <dd> li = list item / dd = definition description</dd>     
+            </dl>   
+            
+    
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="Country">Country:</label>
+            <select id="Country">
+                <option value=""></option>
+                <!-- <option value="usa" means usa will be send to server if user choose USA  -->
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select><br>    
+
+            <button type="submit">Submit</button>   
+
+        </form>
+    </body>   
 </html>
