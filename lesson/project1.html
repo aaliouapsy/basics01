@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- THIS IS THE ROOT ELEMENT -->
+<html>
+ <head>
+    <meta charset ="UTF-8">
+    <meta name="description"; content="example HTML webpage"
+ </head>
+
+ <body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+            color: #010101
+        }
+        section
+        {
+            margin-bottom: 5px;
+            margin-top: 0px;
+        }       
+        h2 {
+            margin-bottom: 5px;
+        }
+        p {
+            margin-top: 0px;
+        }
+    
+    </style>
+
+    <header> 
+        <!-- semantic for structure -->
+        <h1>My HTML Webpage</h1>   
+        <p>This webpage compiles all HTML subjects I learned.</p>   
+    </header> 
+<br/>   
+    <section>
+        <h2>Topics covered</h2>
+            <ul>
+                <li>HTML root element: !DOCTYPE and html</li>
+                <li>Head (head) and meta data (meta, title)</li>
+                <li>Body (body), header (header) and sections (section)</li>
+                <li>Paragraphs (p)</li>
+                <li><div style="background-color: #010101; color: #f0f0f0;">Div</div>and <span style="color: blue;">span</span></span></li>
+                <li>Tables (table, tr, th, td)</li>
+                <li>Lists (ul, ol, dl, dt, dd)</li>
+                <li>Forms (forms)</li>
+            </ul>        
+    </section>
+
+    <section>
+        <h2>Student scores</h2>
+        <table border="1">
+            <tr>
+                <th>Student Name</th>
+                <th>Math (%)</th>
+                <th>Coding (%)</th>
+                <th>Total (%)</th>
+            </tr>
+
+            <tr>
+                <td>Ibrahim</td>
+                <td>90</td>
+                <td>95</td>
+                <td>92,5</td>
+            </tr>
+
+            <tr>
+                <td>Manekoudi</td>
+                <td>85</td>
+                <td>80</td>
+                <td>82,5</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>   
+        <form>
+            <h2>Contact Me</h2>
+            <label for="name">Name:</label><br/>
+            <input type="text" id="name" name="name" required><br/><br/>
+
+            <label for="email">Email:</label><br/>
+            <input type="email" id="email" name="email" required><br/><br/>
+
+            <label for="message">Message:</label><br/>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br/><br/>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
