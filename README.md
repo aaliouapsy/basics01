@@ -1,8 +1,4 @@
-**# Welcome to the Git Basics Course
+# I'm an expert coder.
 
-**## Terms
-- Repository
-- Commit
-- Branch
-- Merge
-- Push
+
+
